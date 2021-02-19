@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>      
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+        <title>Begin! Привет!</title>
+		<meta name="description" content="Персональная страница семьи М...">
+		<!-- для красивых ссылок-->
+		<meta property="og:image" content="/images-header.png">
+		<link rel="icon" href="/favicon1.ico">
+		<!-- <link rel="icon" href="/favicon64.png" type="image/png" sizes="64x64"> -->
+    </head>
+
+    <body>
+        <h1 class="headline" align="center">Hello World! from MuSa</h1>
+
+			<script type="text/javascript">// <![CDATA[
+				day = new Date(); hour = day.getHours(); if (hour>=5 && hour<12) greeting = "Доброе утро"; else { if (hour>=12 && hour<18) greeting = "Добрый день"; else { if (hour>=18 && hour<24) greeting = "Добрый вечер"; else { if (hour>=0 && hour<5) greeting = "Доброй ночи"; } } } document.write(greeting);
+			// ]]>
+			</script>
+				!  Сегодня
+			<script type="text/javascript">// <![CDATA[
+				// <![CDATA[
+				var d = new Date();
+ 				var day=new Array("Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота");
+ 				var month=new Array("января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря");
+ 			document.write(day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()] + " " + d.getFullYear() + " г.");
+					// ]]>
+			</script>
+
+		<p align="right" style="font-height: 10px; font-weight: bold; color: #00FF00;">Вы авторизованы, полная информация</p>
+		<p align="right" style="font-weight: bold; color: red;">Вы гость, частичная информация</p>
+		<a href="#plan" style="font-weight: bold; color: #777777;">Переход к плану</a>
+		
+	<style><p>Test Стиля</p></style>
+
+	<!--		
+		<img src = "men.jpg" alt = "папа" width = "20%" height = "20%" title = "father">
+		<img src = "pict\men.jpg" alt = "папа" style="width: auto; height: 20% title = "father">
+
+		<img src = "pict\woman.jpg" alt = "мама" width = "20%" height = "20%" title = "mother">
+		<img src = "pict\boy.jpg" alt = "сын" width = "18%" height = "18%" title = "son">
+		<img src = "pict\girl.jpg" alt = "доча" width = "16%" height = "16%" title = "daughter">
+		<img src = "10.jpg" alt = "xxx" width = "16%" height = "16%" title = "WWW"  hspace="4" vspace="4" border="2">
+	-->
+<table align="center">
+    <thead> <!-- Блок с заголовками -->
+        <tr align="center"> <!-- Строка -->
+            <th>1979</th>
+            <th>1979</th>
+			<th>2006</th>
+            <th>2007</th>
+        </tr>
+    </thead>
+
+    <tbody> <!-- Тело таблицы -->
+        <tr align="center"> <!-- Вторая строка -->
+            <td><img src = "pict\men.jpg" alt = "папа" width = "70%" height = auto title = "father"></td>
+            <td><img src = "pict\woman.jpg" alt = "мама" width = "70%" height = "auto" title = "mother"></td>
+            <td><img src = "pict\boy.jpg" alt = "сын" width = "60%" height = "60%" title = "son"></td>
+            <td><img src = "pict\girl.jpg" alt = "доча" width = "50%" height = "50%" title = "daughter"></td>
+        </tr>
+        <tr align="center"> <!-- 3 строка -->
+			<td>
+			сейчас 00 лет<br>	
+			&laquo;в этом году:  	
+			<script type="text/javascript">// Па
+					document.write(d.getFullYear() -1979);
+			 </script>&raquo; 
+			<br>до Д/Р 00 дней<td>
+			&laquo;в этом году:  	
+			<script type="text/javascript">// Ма
+					document.write(d.getFullYear() -1979);
+			 </script>&raquo; </td>			
+			<td>
+			&laquo;в этом году:  &raquo;	
+			<script type="text/javascript">// Сын
+					document.write(d.getFullYear() -2006);
+			</script> </td>			
+			<td>
+			&laquo;в этом году:  &raquo;	
+			<script type="text/javascript">// Доча
+					document.write(d.getFullYear() -2007);
+			</script> </td>
+<!--            <td>2021-1979</td>
+            <td>15 лет</td>
+            <td>2007</td>
+-->
+        </tr>
+    </tbody>
+</table>
+
+<div id="plan">		 
+<hr> 
+		 <h1>Здесь будет напоминалка семейных дней рождения</h1>
+			<h2>и возможно гинеологическое дерево</h2>
+			<h3>делать расчет кому сколько лет на основе текущего года и года рождения</h3>
+						<!-- -->
+						<!--  <h3>сейчас:</h3>
+						<script type="text/javascript">
+						document.write(Date());
+						//	document.write(current_datetime.getFullYear()); //не работает - разобраться надо
+						</script>			
+						-->
+</div>
+						
+						<ol>
+							<li>Аутентификация
+								<ul>
+								<li>форма(строка ввода и кнопка) ввода пароля</li>
+								<li>проверка соответствия</li>
+								<li>переадресация на страницу -></li>
+								<li>формирование страницы в зависимости от юзера</li>
+								<li><b>вход</b> - введит свой <i>ДР</i>, защита или пароль</li>
+								</li>
+								</ul> 		
+							<li>Пользователи</li>
+								<ul>
+								<li>Папа - 1111 года рождения, в этом году ему 22 лет, фото, документы </li>
+								<li>сделать расчет дней до ДР, и будет или уже исполнилось, менять лет или год, года</li>
+								<li>Мама </li>
+								<li>Сын</li>
+								<li>Дочь</li>
+								<li>_</li>
+								<li>Родственники, умершие в рамке(дата смерти)</li>
+								</ul> 
+							<li>данные хранить в бд</lili>
+								<ul>
+								<li>люди</li>
+								<li>добавить фото и документы</li>
+								</ul> 
+						</ol> 		
+			</div>
+									<br>	
+<code><pre>просто текст
+				  зачем то 
+							<span>qwerty</span>
+							написан</pre></code>
+	<audio controls>
+		<source src="https://www.w3schools.com/html/horse.ogg">
+		<source src="https://www.w3schools.com/html/horse.mp3">
+	</audio>
+ 
+ <video width="300" height="150" controls>
+    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+    <source src="https://example.com/our-video.webm" type="video/webm">
+    <source src="https://example.com/our-video.ogg" type="video/ogg">
+</video>   
+	
+	</body>
+
+</html>
