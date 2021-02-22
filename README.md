@@ -1,1 +1,1 @@
-# newRep
+# hexlet-hello-world - rename
